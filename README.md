@@ -100,7 +100,7 @@ export LINERA_STORAGE="rocksdb:$LINERA_TMP_DIR/client.db"
 
 # Initialize a new user wallet.
 linera wallet init --faucet $FAUCET_URL
-
+this is my first commint
 # Request chains.
 INFO1=($(linera wallet request-chain --faucet $FAUCET_URL))
 INFO2=($(linera wallet request-chain --faucet $FAUCET_URL))
